@@ -1,0 +1,6 @@
+[workspace]
+members = [
+  "ordantic",
+  "ordantic-derive",
+  "ordantic-example",
+]

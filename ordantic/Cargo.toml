@@ -1,0 +1,16 @@
+[package]
+name = "ordantic"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chrono = { version = "0.4" }
+pyo3 = { version = "0.16.5", features = ["extension-module"] }
+schemars = { version = "0.8", features = ["chrono", "uuid1"] }
+serde = "1.0"
+serde_json = "1.0"
+uuid = { version = "1.0" }
+ordantic-derive = { path = "../ordantic-derive"}
+pydantic-core = { git = "https://github.com/samuelcolvin/pydantic-core.git" }
